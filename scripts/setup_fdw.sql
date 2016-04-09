@@ -1,14 +1,14 @@
 -- Script for setting up the Soundcloud FDW
 --------------------------------------------
 
-create extension multicorn;
+CREATE EXTENSION multicorn;
 
-create server scloud_fdw foreign data wrapper multicorn options (
+CREATE SERVER scloud_fdw FOREIGN DATA WRAPPER multicorn OPTIONS (
     wrapper 'soundcloud_fdw.SoundcloudFDW.SoundcloudForeignDataWrapper',
     apikey '<your api key here>');
 
 CREATE FOREIGN TABLE scloud (
-    title character varying,
-    url character varying,
-    search character varying
-) server scloud_fdw;
+    title CHARACTER VARYING,
+    url CHARACTER VARYING,
+    search CHARACTER VARYING
+) SERVER scloud_fdw;
