@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "width": 187,
+  "height": 45,
+  "duration": 95.569600,
+  "command": "/usr/bin/zsh",
+  "title": "",
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/usr/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.171252,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                          \r \r"
+    ],
+    [
+      0.037497,
+      "\u001b]2;asdmaster@hulk: ~/projects/m_soundcloud\u0007\u001b]1;../m_soundcloud\u0007"
+    ],
+    [
+      0.090789,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[32m[2.7.11]\u001b[34m{NONE} \u001b[35masdmaster\u001b[37m@\u001b[33mhulk\u001b[37m:\u001b[32m~/projects/m_soundcloud\u001b[37m ± \u001b[K\u001b[97C\u001b[37m{\u001b[32m✭\u001b[00m\u001b[37m}\u001b[34m[\u001b[35mmaster \u001b[38;5;133m✘\u001b[00m\u001b[34m] \u001b[32m⌚ Wed13 Apr 2:07 \u001b[33mAM\u001b[39m\u001b[37m\u001b[130D"
+    ],
+    [
+      0.000017,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.653221,
+      "p"
+    ],
+    [
+      0.127224,
+      "\u0008ps"
+    ],
+    [
+      0.208207,
+      "q"
+    ],
+    [
+      0.095920,
+      "l"
+    ],
+    [
+      0.562138,
+      "\u001b[?1l\u001b\u003e\r\r\n\u001b]2;psql\u0007\u001b]1;psql\u0007"
+    ],
+    [
+      0.039668,
+      "psql (9.5.2, server 9.5.1)\r\nType \"help\" for help.\r\n\r\n"
+    ],
+    [
+      0.000468,
+      "postgres=# "
+    ],
+    [
+      7.229611,
+      "CREATE EXTENSION multicorn;\r\n"
+    ],
+    [
+      0.028313,
+      "CREATE EXTENSION\r\npostgres=# "
+    ],
+    [
+      7.706574,
+      "CREATE SERVER scloud_fdw FOREIGN DATA WRAPPER multicorn OPTIONS (\r\npostgres(#     wrapper 'soundcloud_fdw.SoundcloudFDW.SoundcloudForeignDataWrapper',\r\npostgres(#     apikey '\u003cyour api key here\u003e')"
+    ],
+    [
+      11.179967,
+      "\u0008"
+    ],
+    [
+      0.368171,
+      "\u0008"
+    ],
+    [
+      0.575787,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.500454,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030394,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030227,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030338,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030293,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030364,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.029461,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030156,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030227,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030211,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.030039,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.031010,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.028937,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.029822,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.212254,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.191913,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.176020,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      0.544027,
+      "\u0008\u001b[1P')\u0008\u0008"
+    ],
+    [
+      1.604610,
+      "8')\u0008\u0008f')\u0008\u0008b')\u0008\u00081')\u0008\u00086')\u0008\u00089')\u0008\u0008a')\u0008\u00083')\u0008\u00081')\u0008\u0008c')\u0008\u00087')\u0008\u00080')\u0008\u00089')\u0008\u00087')\u0008\u00087')\u0008\u00089')\u0008\u00088')\u0008\u00084')\u0008\u0008c')\u0008\u0008a')\u0008\u0008b')\u0008\u00080')\u0008\u00088')\u0008\u00080')\u0008\u0008c')\u0008\u00087')\u0008\u00086')\u0008\u00081')\u0008\u0008b')\u0008\u00089')\u0008\u00084')\u0008\u00083')\u0008\u0008"
+    ],
+    [
+      1.227371,
+      "\u001b[C\u001b[C"
+    ],
+    [
+      0.639958,
+      ";"
+    ],
+    [
+      0.984159,
+      "\r\n"
+    ],
+    [
+      0.072352,
+      "CREATE SERVER\r\npostgres=# "
+    ],
+    [
+      6.294919,
+      "CREATE FOREIGN TABLE scloud (\r\npostgres(#     title CHARACTER VARYING,\r\npostgres(#     url CHARACTER VARYING,\r\npostgres(#     search CHARACTER VARYING\r\npostgres(# ) SERVER scloud_fdw;\r\n"
+    ],
+    [
+      0.017545,
+      "CREATE FOREIGN TABLE\r\npostgres=# "
+    ],
+    [
+      6.519992,
+      "SELECT * FROM scloud WHERE search = ''"
+    ],
+    [
+      2.527014,
+      ";"
+    ],
+    [
+      1.663931,
+      "\u0008"
+    ],
+    [
+      1.615937,
+      "\u0008"
+    ],
+    [
+      1.888210,
+      "r';\u0008\u0008"
+    ],
+    [
+      0.191928,
+      "e';\u0008\u0008"
+    ],
+    [
+      0.064052,
+      "m';\u0008\u0008"
+    ],
+    [
+      0.111940,
+      "i';\u0008\u0008"
+    ],
+    [
+      0.143971,
+      "x';\u0008\u0008"
+    ],
+    [
+      0.790086,
+      "\r\n"
+    ],
+    [
+      0.414776,
+      "-[ RECORD 1 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Seventeen (Commonwealth Remix)\r\nurl    | https://soundcloud.com/the-vestals/seventeen-commonwealth-remix-1\r\nsearch | remix\r\n-[ RECORD 2 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Rocko Ft. Plies - Goin Steady (Remix)\r\nurl    | https://soundcloud.com/b_woolums/rocko-ft-plies-goin-steady\r\nsearch | remix\r\n-[ RECORD 3 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Student of the year - Disco Song - AR Remix\r\nurl    | https://soundcloud.com/bombaysound/student-of-the-year-disco-song\r\nsearch | remix\r\n-[ RECORD 4 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Travesuras Remix   Nicky Jam Ft De La Ghetto, J Balvin, Zion Y Arcangel   Video Lyric\r\nurl    | https://soundcloud.com/kora-dj-guaytambo-dj/travesuras-remix-nicky-jam-ft-de-la-ghetto-j-balvin-zion-y-arcangel-video-lyric\r\nsearch | remix\r\n-[ RECORD 5 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Kcee ft Don Jazzy \u0026 Wizkid - Pull Over (remix)\r\nurl    | https://soundcloud.com/tayotv/kcee-ft-don-jazzy-wizkid-pull\r\nsearch | remix\r\n-[ RECORD 6 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Woop \"Pussy Nigga\" ft. Yo Gotti \u0026 Kevin Gates (CRDJS Remix)\r\nurl    | https://soundcloud.com/urbanaddiction/woop-pussy-nigga-ft-yo-gotti\r\nsearch | remix\r\n-[ RECORD 7 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Why Do We Fall (Remix)\r\nurl    | https://soundcloud.com/themateuszm/why-do-we-fall\r\nsearch | remix\r\n-[ RECORD 8 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | Jeffree Star - Boom Boom Pow (Jeffree Star Remix)\r\nurl    | https://soundcloud.com/jeffreestarpl2/jeffree-star-boom-boom-pow\r\nsearch | remix\r\n-[ RECORD 9 ]-----------------------------------------------------------------------------------------------------------------------\r\ntitle  | 50 Cent - I GET MONEY FT. JAY-Z \u0026 P. DIDDY BILLION DOLLAR REMIX\r\nurl    | https://soundcloud.com/and1x/50-cent-i-get-money-ft-jay-z-p-diddy-billion-dollar-remix\r\nsearch | remix\r\n\r\npostgres=# "
+    ],
+    [
+      6.481995,
+      "\\q\r\n"
+    ],
+    [
+      0.000368,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                          \r \r"
+    ],
+    [
+      0.046246,
+      "\u001b]2;asdmaster@hulk: ~/projects/m_soundcloud\u0007\u001b]1;../m_soundcloud\u0007"
+    ],
+    [
+      0.064780,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[32m[2.7.11]\u001b[34m{NONE} \u001b[35masdmaster\u001b[37m@\u001b[33mhulk\u001b[37m:\u001b[32m~/projects/m_soundcloud\u001b[37m ± \u001b[K\u001b[97C\u001b[37m{\u001b[32m✭\u001b[00m\u001b[37m}\u001b[34m[\u001b[35mmaster \u001b[38;5;133m✘\u001b[00m\u001b[34m] \u001b[32m⌚ Wed13 Apr 2:08 \u001b[33mAM\u001b[39m\u001b[37m\u001b[130D"
+    ],
+    [
+      0.000007,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.697761,
+      "\r\r\n"
+    ]
+  ]
+}
